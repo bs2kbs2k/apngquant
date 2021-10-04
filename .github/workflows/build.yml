@@ -33,7 +33,7 @@
         - uses: actions/upload-artifact@v2
           with:
             name: linux-bin
-            path: target/release/apngquant
+            path: target/x86_64-unknown-linux-musl/release/apngquant
     build-mac:
       runs-on: macos-latest
       steps:
